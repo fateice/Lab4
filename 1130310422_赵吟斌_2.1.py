@@ -65,3 +65,4 @@ for y in range(1901,2001):
             if days%7==5:
                 s=s+1
 print s
+print "soft"
