@@ -3,6 +3,7 @@ if num == 1:                	    	#判断模式，如果输入1，为华氏转摄氏度
     F1 = eval(raw_input())              #输入华氏度   
     if   F1<=-459.4:                	#如果温度低于绝对零度
          print "Error"                  #输出错误
+         print "hahahaha"
          exit()                         #并退出
     elif F1>=9999.9:                    #如果温度过高，没有实际意义
          print "Error"                  #输出错误
