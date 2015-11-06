@@ -21,6 +21,7 @@ elif num==2:                            #如果输入的是2，为摄氏度转华氏度
     else:       	                
          F2 = 32 + C1 * 1.8 	    	#如果是有意思的温度，就进行转换运算
          print(format(F2,".2f"))        #输出华氏度，并取两位小数
+         print "hello"
 else:   	    	    	    	#如果是其他数字
          print "Error"                  #输出错误
          exit() 	    	    	#并退出
